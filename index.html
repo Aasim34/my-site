@@ -186,25 +186,26 @@
 <body class="bg-gray-50">
     <!-- Header -->
     <header class="bg-white/95 backdrop-blur-lg border-b border-gray-200/50 sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
             <div class="flex items-center justify-between">
-                <div class="flex items-center space-x-4">
-                    <div class="w-12 h-12 feature-icon rounded-xl flex items-center justify-center shadow-lg">
-                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex items-center space-x-2 sm:space-x-4">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 feature-icon rounded-xl flex items-center justify-center shadow-lg">
+                        <svg class="w-5 h-5 sm:w-6 sm:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
                         </svg>
                     </div>
                     <div>
-                        <h1 class="text-2xl font-bold text-gray-900">AI Content Detector</h1>
-                        <p class="text-sm text-gray-500">Enterprise-grade detection technology</p>
+                        <h1 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">AI Content Detector</h1>
+                        <p class="text-xs sm:text-sm text-gray-500 hidden sm:block">Enterprise-grade detection technology</p>
                     </div>
                 </div>
-                <div class="hidden md:flex items-center space-x-6">
-                    <div class="flex items-center space-x-2 text-sm text-gray-600">
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex items-center space-x-2 sm:space-x-6">
+                    <div class="flex items-center space-x-1 sm:space-x-2 text-xs sm:text-sm text-gray-600">
+                        <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                         </svg>
-                        <span>Secure & Private</span>
+                        <span class="hidden sm:inline">Secure & Private</span>
+                        <span class="sm:hidden">Secure</span>
                     </div>
                 </div>
             </div>
@@ -212,73 +213,76 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="gradient-bg text-white py-24 relative">
-        <div class="max-w-6xl mx-auto text-center px-4 relative z-10">
-            <div class="floating-element mb-8">
-                <div class="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-sm font-medium">
+    <section class="gradient-bg text-white py-12 sm:py-16 md:py-20 lg:py-24 relative">
+        <div class="max-w-6xl mx-auto text-center px-4 sm:px-6 relative z-10">
+            <div class="floating-element mb-6 sm:mb-8">
+                <div class="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 text-xs sm:text-sm font-medium">
                     <span class="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
-                    Advanced AI Detection Technology
+                    <span class="hidden sm:inline">Advanced AI Detection Technology</span>
+                    <span class="sm:hidden">AI Detection Tech</span>
                 </div>
             </div>
             
-            <h2 class="text-5xl md:text-7xl font-bold mb-8 leading-tight">
-                Detect AI Content
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 sm:mb-8 leading-tight">
+                <span class="block">Detect AI Content</span>
                 <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
                     With Precision
                 </span>
             </h2>
             
-            <p class="text-xl md:text-2xl mb-12 opacity-90 max-w-3xl mx-auto leading-relaxed">
+            <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 sm:mb-10 md:mb-12 opacity-90 max-w-3xl mx-auto leading-relaxed px-4">
                 Advanced neural networks analyze every pixel to distinguish between authentic and AI-generated content with industry-leading accuracy.
             </p>
             
-            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto mb-12">
-                <div class="glass-card rounded-2xl p-6 text-center">
-                    <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 max-w-4xl mx-auto mb-8 sm:mb-10 md:mb-12 px-4">
+                <div class="glass-card rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center">
+                    <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mx-auto mb-3 sm:mb-4 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl sm:rounded-2xl flex items-center justify-center">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Images & Photos</h3>
-                    <p class="text-gray-600 text-sm">Detect deepfakes, AI portraits, and synthetic imagery</p>
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2">Images & Photos</h3>
+                    <p class="text-gray-600 text-xs sm:text-sm">Detect deepfakes, AI portraits, and synthetic imagery</p>
                 </div>
                 
-                <div class="glass-card rounded-2xl p-6 text-center">
-                    <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="glass-card rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center">
+                    <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mx-auto mb-3 sm:mb-4 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl sm:rounded-2xl flex items-center justify-center">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Video Content</h3>
-                    <p class="text-gray-600 text-sm">Analyze video deepfakes and synthetic footage</p>
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2">Video Content</h3>
+                    <p class="text-gray-600 text-xs sm:text-sm">Analyze video deepfakes and synthetic footage</p>
                 </div>
                 
-                <div class="glass-card rounded-2xl p-6 text-center">
-                    <div class="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-green-500 to-teal-600 rounded-2xl flex items-center justify-center">
-                        <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="glass-card rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center sm:col-span-2 lg:col-span-1">
+                    <div class="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 mx-auto mb-3 sm:mb-4 bg-gradient-to-br from-green-500 to-teal-600 rounded-xl sm:rounded-2xl flex items-center justify-center">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-800 mb-2">Instant Analysis</h3>
-                    <p class="text-gray-600 text-sm">Get results in seconds with detailed explanations</p>
+                    <h3 class="text-base sm:text-lg font-semibold text-gray-800 mb-2">Instant Analysis</h3>
+                    <p class="text-gray-600 text-xs sm:text-sm">Get results in seconds with detailed explanations</p>
                 </div>
             </div>
             
-            <div class="flex flex-wrap justify-center gap-4 text-sm opacity-80">
-                <div class="flex items-center space-x-2 bg-white/10 px-4 py-2 rounded-full">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-3 lg:gap-4 text-xs sm:text-sm opacity-80 px-4">
+                <div class="flex items-center space-x-1 sm:space-x-2 bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full">
+                    <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
-                    <span>No Registration Required</span>
+                    <span class="hidden sm:inline">No Registration Required</span>
+                    <span class="sm:hidden">No Registration</span>
                 </div>
-                <div class="flex items-center space-x-2 bg-white/10 px-4 py-2 rounded-full">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex items-center space-x-1 sm:space-x-2 bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full">
+                    <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                     </svg>
-                    <span>100% Private & Secure</span>
+                    <span class="hidden sm:inline">100% Private & Secure</span>
+                    <span class="sm:hidden">Private & Secure</span>
                 </div>
-                <div class="flex items-center space-x-2 bg-white/10 px-4 py-2 rounded-full">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex items-center space-x-1 sm:space-x-2 bg-white/10 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full">
+                    <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
                     </svg>
                     <span>Enterprise Grade</span>
@@ -288,52 +292,54 @@
     </section>
 
     <!-- Main Content -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-gray-50">
-        <div class="grid lg:grid-cols-2 gap-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 bg-gray-50">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
             <!-- Upload Section -->
-            <div class="space-y-8">
-                <div class="glass-card rounded-2xl shadow-2xl p-8 border border-gray-200/50">
-                    <div class="flex items-center space-x-3 mb-8">
-                        <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="space-y-6 sm:space-y-8">
+                <div class="glass-card rounded-xl sm:rounded-2xl shadow-2xl p-4 sm:p-6 lg:p-8 border border-gray-200/50">
+                    <div class="flex items-center space-x-2 sm:space-x-3 mb-6 sm:mb-8">
+                        <div class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg sm:rounded-xl flex items-center justify-center">
+                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Upload Content</h3>
+                        <h3 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">Upload Content</h3>
                     </div>
                     
                     <!-- Upload Area -->
-                    <div id="upload-area" class="upload-area rounded-2xl p-12 text-center cursor-pointer border-2">
+                    <div id="upload-area" class="upload-area rounded-xl sm:rounded-2xl p-6 sm:p-8 lg:p-12 text-center cursor-pointer border-2">
                         <div id="upload-content">
-                            <div class="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl flex items-center justify-center">
-                                <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <div class="w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 mx-auto mb-4 sm:mb-6 bg-gradient-to-br from-blue-100 to-purple-100 rounded-xl sm:rounded-2xl flex items-center justify-center">
+                                <svg class="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
                                 </svg>
                             </div>
-                            <h4 class="text-2xl font-bold text-gray-800 mb-3">
-                                Drop files here or click to upload
+                            <h4 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mb-2 sm:mb-3">
+                                <span class="hidden sm:inline">Drop files here or click to upload</span>
+                                <span class="sm:hidden">Tap to upload files</span>
                             </h4>
-                            <p class="text-gray-600 mb-6 text-lg">
-                                Supports JPG, PNG, MP4, MOV files up to 50MB
+                            <p class="text-gray-600 mb-4 sm:mb-6 text-sm sm:text-base lg:text-lg px-2">
+                                <span class="hidden sm:inline">Supports JPG, PNG, MP4, MOV files up to 50MB</span>
+                                <span class="sm:hidden">JPG, PNG, MP4, MOV up to 50MB</span>
                             </p>
-                            <button class="btn-primary text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg">
+                            <button class="btn-primary text-white px-6 py-3 sm:px-8 sm:py-4 rounded-lg sm:rounded-xl font-semibold text-base sm:text-lg shadow-lg">
                                 Choose Files
                             </button>
-                            <div class="mt-6 flex justify-center space-x-6 text-sm text-gray-500">
+                            <div class="mt-4 sm:mt-6 flex flex-wrap justify-center gap-3 sm:gap-6 text-xs sm:text-sm text-gray-500">
                                 <div class="flex items-center space-x-1">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
                                     <span>Secure</span>
                                 </div>
                                 <div class="flex items-center space-x-1">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                                     </svg>
                                     <span>Fast</span>
                                 </div>
                                 <div class="flex items-center space-x-1">
-                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <svg class="w-3 h-3 sm:w-4 sm:h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
                                     </svg>
                                     <span>Private</span>
@@ -363,9 +369,9 @@
                     </div>
                     
                     <!-- Analyze Button -->
-                    <button id="analyze-btn" class="hidden w-full btn-primary text-white py-5 rounded-xl font-bold text-xl shadow-xl mt-8 relative overflow-hidden">
-                        <span class="relative z-10 flex items-center justify-center space-x-3">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <button id="analyze-btn" class="hidden w-full btn-primary text-white py-4 sm:py-5 rounded-lg sm:rounded-xl font-bold text-lg sm:text-xl shadow-xl mt-6 sm:mt-8 relative overflow-hidden">
+                        <span class="relative z-10 flex items-center justify-center space-x-2 sm:space-x-3">
+                            <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                             </svg>
                             <span>Analyze Content</span>
@@ -374,59 +380,59 @@
                 </div>
                 
                 <!-- Features -->
-                <div class="glass-card rounded-2xl shadow-2xl p-8 border border-gray-200/50">
-                    <div class="flex items-center space-x-3 mb-6">
-                        <div class="w-10 h-10 bg-gradient-to-br from-green-500 to-teal-600 rounded-xl flex items-center justify-center">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="glass-card rounded-xl sm:rounded-2xl shadow-2xl p-4 sm:p-6 lg:p-8 border border-gray-200/50">
+                    <div class="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
+                        <div class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-green-500 to-teal-600 rounded-lg sm:rounded-xl flex items-center justify-center">
+                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Detection Capabilities</h3>
+                        <h3 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">Detection Capabilities</h3>
                     </div>
-                    <div class="space-y-5">
-                        <div class="flex items-center space-x-4 p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl border border-green-100">
-                            <div class="w-10 h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="space-y-3 sm:space-y-4 lg:space-y-5">
+                        <div class="flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg sm:rounded-xl border border-green-100">
+                            <div class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="font-semibold text-gray-800">Deepfake Detection</h4>
-                                <p class="text-sm text-gray-600">Advanced facial manipulation analysis</p>
+                                <h4 class="font-semibold text-gray-800 text-sm sm:text-base">Deepfake Detection</h4>
+                                <p class="text-xs sm:text-sm text-gray-600">Advanced facial manipulation analysis</p>
                             </div>
                         </div>
-                        <div class="flex items-center space-x-4 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl border border-blue-100">
-                            <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div class="flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg sm:rounded-xl border border-blue-100">
+                            <div class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="font-semibold text-gray-800">Synthetic Image Analysis</h4>
-                                <p class="text-sm text-gray-600">GAN-generated content identification</p>
+                                <h4 class="font-semibold text-gray-800 text-sm sm:text-base">Synthetic Image Analysis</h4>
+                                <p class="text-xs sm:text-sm text-gray-600">GAN-generated content identification</p>
                             </div>
                         </div>
-                        <div class="flex items-center space-x-4 p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl border border-purple-100">
-                            <div class="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div class="flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg sm:rounded-xl border border-purple-100">
+                            <div class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-purple-500 to-pink-600 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="font-semibold text-gray-800">Metadata Examination</h4>
-                                <p class="text-sm text-gray-600">EXIF data and origin verification</p>
+                                <h4 class="font-semibold text-gray-800 text-sm sm:text-base">Metadata Examination</h4>
+                                <p class="text-xs sm:text-sm text-gray-600">EXIF data and origin verification</p>
                             </div>
                         </div>
-                        <div class="flex items-center space-x-4 p-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-xl border border-orange-100">
-                            <div class="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-600 rounded-xl flex items-center justify-center flex-shrink-0">
-                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <div class="flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 bg-gradient-to-r from-orange-50 to-red-50 rounded-lg sm:rounded-xl border border-orange-100">
+                            <div class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-orange-500 to-red-600 rounded-lg sm:rounded-xl flex items-center justify-center flex-shrink-0">
+                                <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="font-semibold text-gray-800">Pattern Recognition</h4>
-                                <p class="text-sm text-gray-600">Neural network artifact detection</p>
+                                <h4 class="font-semibold text-gray-800 text-sm sm:text-base">Pattern Recognition</h4>
+                                <p class="text-xs sm:text-sm text-gray-600">Neural network artifact detection</p>
                             </div>
                         </div>
                     </div>
@@ -434,16 +440,16 @@
             </div>
             
             <!-- Results Section -->
-            <div class="space-y-8">
+            <div class="space-y-6 sm:space-y-8">
                 <!-- Results Card -->
-                <div id="results-card" class="result-card glass-card rounded-2xl shadow-2xl p-8 border border-gray-200/50">
-                    <div class="flex items-center space-x-3 mb-8">
-                        <div class="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div id="results-card" class="result-card glass-card rounded-xl sm:rounded-2xl shadow-2xl p-4 sm:p-6 lg:p-8 border border-gray-200/50">
+                    <div class="flex items-center space-x-2 sm:space-x-3 mb-6 sm:mb-8">
+                        <div class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-purple-500 to-pink-600 rounded-lg sm:rounded-xl flex items-center justify-center">
+                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Analysis Results</h3>
+                        <h3 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">Analysis Results</h3>
                     </div>
                     
                     <div id="no-results" class="text-center py-12">
@@ -522,24 +528,24 @@
                 </div>
                 
                 <!-- Statistics -->
-                <div class="glass-card rounded-2xl shadow-2xl p-8 border border-gray-200/50">
-                    <div class="flex items-center space-x-3 mb-6">
-                        <div class="w-10 h-10 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-xl flex items-center justify-center">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="glass-card rounded-xl sm:rounded-2xl shadow-2xl p-4 sm:p-6 lg:p-8 border border-gray-200/50">
+                    <div class="flex items-center space-x-2 sm:space-x-3 mb-4 sm:mb-6">
+                        <div class="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-lg sm:rounded-xl flex items-center justify-center">
+                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Performance Metrics</h3>
+                        <h3 class="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900">Performance Metrics</h3>
                     </div>
-                    <div class="grid grid-cols-2 gap-6">
-                        <div class="stat-card text-center p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl border border-green-100">
-                            <div class="text-4xl font-bold text-green-600 mb-2">0.3s</div>
-                            <div class="text-sm font-medium text-gray-700">Analysis Time</div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+                        <div class="stat-card text-center p-4 sm:p-6 bg-gradient-to-br from-green-50 to-emerald-50 rounded-lg sm:rounded-xl border border-green-100">
+                            <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-green-600 mb-1 sm:mb-2">0.3s</div>
+                            <div class="text-xs sm:text-sm font-medium text-gray-700">Analysis Time</div>
                             <div class="text-xs text-gray-500 mt-1">Average Speed</div>
                         </div>
-                        <div class="stat-card text-center p-6 bg-gradient-to-br from-orange-50 to-red-50 rounded-xl border border-orange-100">
-                            <div class="text-4xl font-bold text-orange-600 mb-2">24/7</div>
-                            <div class="text-sm font-medium text-gray-700">Availability</div>
+                        <div class="stat-card text-center p-4 sm:p-6 bg-gradient-to-br from-orange-50 to-red-50 rounded-lg sm:rounded-xl border border-orange-100">
+                            <div class="text-2xl sm:text-3xl lg:text-4xl font-bold text-orange-600 mb-1 sm:mb-2">24/7</div>
+                            <div class="text-xs sm:text-sm font-medium text-gray-700">Availability</div>
                             <div class="text-xs text-gray-500 mt-1">Always Online</div>
                         </div>
                     </div>
@@ -549,69 +555,69 @@
     </div>
 
     <!-- How It Works Section -->
-    <section class="bg-gradient-to-br from-gray-50 to-white py-24 relative overflow-hidden">
+    <section class="bg-gradient-to-br from-gray-50 to-white py-12 sm:py-16 lg:py-20 xl:py-24 relative overflow-hidden">
         <div class="absolute inset-0 bg-grid-pattern opacity-5"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16">
-                <div class="inline-flex items-center px-4 py-2 bg-blue-100 rounded-full text-blue-800 text-sm font-medium mb-4">
-                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="text-center mb-10 sm:mb-12 lg:mb-16">
+                <div class="inline-flex items-center px-3 py-1.5 sm:px-4 sm:py-2 bg-blue-100 rounded-full text-blue-800 text-xs sm:text-sm font-medium mb-3 sm:mb-4">
+                    <svg class="w-3 h-3 sm:w-4 sm:h-4 mr-1 sm:mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                     </svg>
                     Simple & Powerful Process
                 </div>
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">How It Works</h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Our advanced AI detection system analyzes your content through a sophisticated multi-stage process</p>
+                <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">How It Works</h2>
+                <p class="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4">Our advanced AI detection system analyzes your content through a sophisticated multi-stage process</p>
             </div>
             
-            <div class="grid md:grid-cols-4 gap-8 relative">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 relative">
                 <!-- Connection Lines -->
-                <div class="hidden md:block absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-200 via-purple-200 to-green-200"></div>
+                <div class="hidden lg:block absolute top-16 sm:top-20 lg:top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-200 via-purple-200 to-green-200"></div>
                 
                 <div class="text-center relative">
-                    <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl floating-element">
-                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 shadow-xl floating-element">
+                        <svg class="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
                         </svg>
                     </div>
-                    <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">1. Secure Upload</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">Upload your image or video file to our encrypted, secure platform with enterprise-grade protection</p>
+                    <div class="bg-white rounded-lg sm:rounded-xl p-4 sm:p-6 shadow-lg border border-gray-100">
+                        <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">1. Secure Upload</h3>
+                        <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Upload your image or video file to our encrypted, secure platform with enterprise-grade protection</p>
                     </div>
                 </div>
                 
                 <div class="text-center relative">
-                    <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl floating-element" style="animation-delay: 0.5s;">
-                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 shadow-xl floating-element" style="animation-delay: 0.5s;">
+                        <svg class="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                         </svg>
                     </div>
-                    <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">2. Deep Analysis</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">Our neural networks examine every pixel, analyzing patterns, textures, and metadata for authenticity markers</p>
+                    <div class="bg-white rounded-lg sm:rounded-xl p-4 sm:p-6 shadow-lg border border-gray-100">
+                        <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">2. Deep Analysis</h3>
+                        <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Our neural networks examine every pixel, analyzing patterns, textures, and metadata for authenticity markers</p>
                     </div>
                 </div>
                 
                 <div class="text-center relative">
-                    <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl floating-element" style="animation-delay: 1s;">
-                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div class="w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 shadow-xl floating-element" style="animation-delay: 1s;">
+                        <svg class="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
                         </svg>
                     </div>
-                    <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">3. AI Processing</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">Advanced machine learning algorithms process the data to detect AI generation signatures and artifacts</p>
+                    <div class="bg-white rounded-lg sm:rounded-xl p-4 sm:p-6 shadow-lg border border-gray-100">
+                        <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">3. AI Processing</h3>
+                        <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Advanced machine learning algorithms process the data to detect AI generation signatures and artifacts</p>
                     </div>
                 </div>
                 
-                <div class="text-center relative">
-                    <div class="w-20 h-20 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-xl floating-element" style="animation-delay: 1.5s;">
-                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="text-center relative sm:col-span-2 lg:col-span-1">
+                    <div class="w-16 h-16 sm:w-18 sm:h-18 lg:w-20 lg:h-20 bg-gradient-to-br from-orange-500 to-red-500 rounded-xl sm:rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 shadow-xl floating-element" style="animation-delay: 1.5s;">
+                        <svg class="w-8 h-8 sm:w-9 sm:h-9 lg:w-10 lg:h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
                         </svg>
                     </div>
-                    <div class="bg-white rounded-xl p-6 shadow-lg border border-gray-100">
-                        <h3 class="text-xl font-bold text-gray-900 mb-3">4. Detailed Results</h3>
-                        <p class="text-gray-600 text-sm leading-relaxed">Receive comprehensive analysis with confidence scores, explanations, and actionable insights</p>
+                    <div class="bg-white rounded-lg sm:rounded-xl p-4 sm:p-6 shadow-lg border border-gray-100">
+                        <h3 class="text-lg sm:text-xl font-bold text-gray-900 mb-2 sm:mb-3">4. Detailed Results</h3>
+                        <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">Receive comprehensive analysis with confidence scores, explanations, and actionable insights</p>
                     </div>
                 </div>
             </div>
@@ -872,5 +878,5 @@
             }
         });
     </script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96c9a9c730c76cd6',t:'MTc1NDc2Nzc3Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96c9f142f5d6c1a6',t:'MTc1NDc3MDcwNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
